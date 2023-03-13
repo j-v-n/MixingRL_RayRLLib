@@ -23,4 +23,5 @@ if __name__ == "__main__":
             # if we are using search space use a conditional search space: tune.sample_from()
             "evaluation_config": {"obs_filter": "normalize_obs", "reward_filter": None},
         },
+        local_dir="./logfiles/",
     )
